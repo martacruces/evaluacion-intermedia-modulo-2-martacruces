@@ -7,6 +7,7 @@ const elementAttempts = document.querySelector('#attempts');
 
 const getRandomNumber = max => Math.ceil(Math.random() * max);
 
+
 function playGame(){
     const randomNumber = getRandomNumber(100)
     console.log(randomNumber);
@@ -21,4 +22,5 @@ function playGame(){
 
 };
 
+window.addEventListener('load', randomNumber)
 elementButton.addEventListener('click', playGame);
