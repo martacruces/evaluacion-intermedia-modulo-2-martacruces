@@ -4,6 +4,7 @@
 }
 
 .inputcell {
+    width: 400px;
     border: none;
     border-radius: 2px;
     color: whitesmoke;
@@ -11,6 +12,7 @@
 }
 
 .button-default {
+    width: 200px;
     border: none;
     border-radius: 2px;
     color: whitesmoke;
@@ -21,9 +23,11 @@
 /* Paragraphs */
 
 .clue {
-    border: 1px solid #cacaca;
+    width: 400px;
+    border: 4px solid #cacaca;
 }
 
 .attempts {
-    border: 1px solid #cacaca;
+    width: 400px;
+    border: 4px solid #cacaca;
 }
